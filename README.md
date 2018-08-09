@@ -1,6 +1,7 @@
 # eslint-plugin-import-emotion
 
 Ensure emotion is imported at the end of absolute imports
+See [`import-order-emotion`](./docs/rules/import-order-emotion.md) documentation for details
 
 ## Installation
 
@@ -43,7 +44,7 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-* Fill in provided rules here
+* [`import-order-emotion`](./docs/rules/import-order-emotion.md)
 
 
 

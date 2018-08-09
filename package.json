@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-import-order-emotion",
+  "version": "1.0.0",
+  "description": "Eslint plugin to ensure emotion is imported at the end of absolute imports",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Jakub Frej (http://frej.co.uk)",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.13.0",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}

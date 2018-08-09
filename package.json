@@ -7,6 +7,10 @@
     "eslintplugin",
     "eslint-plugin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfrej/eslint-plugin-import-order-emotion.git"
+  },
   "author": "Jakub Frej (http://frej.co.uk)",
   "main": "lib/index.js",
   "scripts": {

@@ -37,7 +37,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "import-order-emotion/rule-name": 2
+        "import-order-emotion/import-order-emotion": "error"
     }
 }
 ```

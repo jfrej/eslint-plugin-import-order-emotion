@@ -1,12 +1,13 @@
 # Ensure emotion is imported at the end of absolute imports (import-order-emotion)
 
-[Emotion](https://emotion.sh/) in production mode injects styles based on the order of `import` statements.
+[Emotion](https://emotion.sh/) in production mode injects styles based on the order of `import` statements.\
 This means that Emotion styles can be overwritten by third party libraries if emotion isn't the last absolute `import`.
 
 ## Rule Details
 
 This rule checks if imports from `emotion` and `react-emotion` packages are at the end of absolute imports.
-Internally it uses [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import) to qualify `import` statements.
+
+Internally it uses [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import) to qualify `import` statements.\
 See [`import/order` documentation](https://github.com/benmosher/eslint-plugin-import/blob/master/docs%2Frules%2Forder.md) for details.
 
 Examples of **incorrect** code for this rule:
